@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="mobil-nav">
+                <div class="logos flex justify-between items-center p-[17px]">
+                    <a href="#"><h1 class=" text-[1.125em] font-bold uppercase qirmizi">turbo.az</h1></a>
+                    <a href="#"><h1 class="text-[1.125em] font-bold uppercase boz">bina.az</h1></a>
+                    <a href="#"><h1 class="text-[1.125em] font-bold uppercase boz">tap.az</h1></a>
+                    <a href="#" class="plus w-[25px] h-[25px] font-bold "></a>
+                </div>
+
+                <div class="mobil-secimler p-[15px]  bg-[#F6F6F8FF]">
+                    <div class="markalar relative h-[54px] p-[15px] rounded-[13px] bg-[#fff] my-2 ">
+                        <span class="text-[1.2em] pl-[5px] text-[#212c3a] ">Markalar</span>
+                        <i class="fa-solid fa-chevron-down absolute right-[30px] text-[1.2em] text-[#B1B5C7FF]"></i>
+                    </div>
+                    <div class="filterler flex gap -[5px] h-[54px] p-[15px] rounded-[13px] bg-[#fff] my-2 ">
+                        <img src="/img/filter.png" alt="" class="w-[24px]" />
+                        <span class="text-[1.2em] pl-[5px] text-[#212c3a] ">Filtrlər</span>
+                    </div>
+                    <div class="tarix h-[54px] p-[15px] rounded-[13px] bg-[#fff] my-2 ">
+                        <span class="text-[1.2em] pl-[5px] text-[#212c3a] ">Tarixə görə</span>
+                    </div>
+                    <p class=" text-[1em] font-bold pl-[5px] ">Avtomobil almaq</p>
+                    <p class=" boz text-[.9em]">10000 elan</p>
+                </div>
+                <div class="mobil-reklam w-[100%] ">
+                    <img src="/img/3masin.jpg" class="w-[100%] object-cover" alt="">
+                </div>
+            </div>
+
+            <div class="header-links text-center p-[7px]">
+                <a href="#" class="mx-3 text-[1em] text-[##212c3a]">Kreditlə</a>
+                <a href="#" class="mx-3 text-[1em] text-[##212c3a]" >Barter</a>
+                <a href="#" class="mx-3 text-[1em] text-[##212c3a]" >Aksesuarlar</a>
+                <a href="#" class="mx-3 text-[1em] text-[##212c3a]" >Şinlər</a>
+                <a href="#" class="mx-3 text-[1em] text-[##212c3a]" >İcarə</a>
+            </div>
+
+            <div class="desk-top w-[100%]">
+                <div class="contaner flex items-center justify-around  py-[10px] bg-[#f6f7fb]" >
+                      <div class="top-left">
+                        <ul class="flex gap-[1.5vw]">
+                            <li><a class="boz " href="#">Tap.az</a></li>
+                            <li><a  class="boz" href="#">Bina.az</a></li>
+                            <li><a class="boz" href="#">Boss.az</a></li>
+                        </ul>
+                      </div>
+                      <div class="top-right boz flex justify-between items-center gap-[10px] ">
+                        <ul class="mx-[10px]  flex justify-between items-center gap-[10px]"  >
+                        <li><a href="#" class="boz">Dəstək: (012) 505-77-55</a></li>
+                        <li> <a href="#" class="boz"  >Yardım</a></li>
+                        <li><a href="#" class="boz" >RU</a></li>
+                    </ul>
+                      <span class="heart flex items-center">
+                        <i class="fa-solid fa-heart pr-[5px]"></i>
+                        <p  class="boz">Seçilmişlər</p>
+                      </span>
+                      <span class="user flex items-center">
+                        <i class="fa-solid fa-circle-user pr-[5px]"></i> 
+                        <p class="boz">Giriş</p>
+                      </span>
+                      </div>
+                </div>
+            </div>
+
+            <div class="desk-bottom bg-[#CA1016] py-[11px]">
+                <div class="contaner flex items-center justify-around">
+                    <div class="bottom-left flex items-center gap-[2vw]">
+                        <div class="logo text-[1.2em] text-[#fff]">
+                            <p> <a href="" class="font-bold">TURBO.AZ</a></p>
+                        </div>
+                        <ul class="flex gap-[1.5vw]">
+                            <li><a href="#" class="text-[#fff]">Bütün Elanlar</a></li>
+                            <li><a href="#" class="text-[#fff]">Salonlar</a></li>
+                            <li><a href="#" class="text-[#fff]">Moto</a></li>
+                            <li class="drop"><a href="#" class="text-[#fff]">Ehtiyat hissələri və aksesuarlar</a>
+                            <div class="dwn absolute bg-[#fff] rounded-[10px] p-[15px] " >
+                                <a href="" ><p class="text-[#000] my-[10px]">Aksesuarlar</p></a>
+                                <a href=""><p class="text-[#000] my-[10px]">Audio və video texnika</p></a>
+                                <a href="" ><p class="text-[#000] my-[10px]">Avtokosmetika və avtokimya</p></a>
+                                <a href="" ><p class="text-[#000] my-[10px]">Ehtiyyat hissələri</p></a>
+                                <a href="" ><p class="text-[#000] my-[10px]">GPS navigatorlar</p></a>
+                                <a href="" ><p class="text-[#000] my-[10px]">Qeydiyyat nişanları</p></a>
+                                <a href="" ><p class="text-[#000] my-[10px]">Siqnalzasiyalar</p></a>
+                                <a href="" ><p class="text-[#000] my-[10px]">Videoqeydiyyatçılar</p></a>
+                                <a href="" ><p class="text-[#000] my-[10px]">Şinlər disklər və təkərlər</p></a>
+                                <a href="" ><p class="text-[#000] my-[10px]">Digər</p></a>
+                            </div>
+                            </li>
+                            <li class="drop"><a href="#" class="text-[#fff]">İcarə</a>
+                                <div class="dwn absolute bg-[#fff] rounded-[10px] p-[15px] ">
+                                    <a href=""><p class="text-[#000] my-[10px]">Avtomobillər</p></a>
+                                    <a href=""><p class="text-[#000] my-[10px]">Avtobus və mikroavtobuslar</p></a>
+                                    <a href=""><p class="text-[#000] my-[10px]">Motosiklet və mopedlər</p></a>
+                                    <a href=""><p class="text-[#000] my-[10px]">Xüsusi texnika</p></a>
+                                    <a href=""><p class="text-[#000] my-[10px]">Digər</p></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom-right">
+                        <button class="text-[#fff] bg-[#7FCE22] p-[10px] rounded-[7px] border-none cursor-pointer"><span class="text-[.9em] rounded-[50%] px-[3px] mr-[5px]">✚</span>Yeni elan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inputs py-[15px] bg-[#ebedf39d]">
+                <div class=" flex flex-col gap-[10px] w-[67vw] m-auto">
+                <div class="inpt flex justify-center items-center gap-[1vw]">
+                    <select class="inp-marka boz w-[18vw] rounded-[8px] py-[15px] px-[8px] text-[.8em]">
+                        <option value="" hidden>Marka</option>
+                    </select>
+                    <select class="inp-model boz w-[18vw] rounded-[8px] py-[15px] px-[8px] text-[.8em]">
+                        <option value="" hidden>Model</option>
+                    </select>
+                    <div class="btn-groups flex py-[10px] justify-center bg-[#f6f7fa]">
+                        <button class=" p-[15px] cursor-pointer bg-[#CA1016] text-[#fff]">Hamısı</button>
+                        <button class="boz bg-[#fff] p-[15px] cursor-pointer " >Yeni</button>
+                        <button class="boz bg-[#fff] p-[15px] cursor-pointer" >Sürülmüş</button>
+                    </div>
+                    <select  class="inp-seher boz w-[18vw] rounded-[8px] py-[15px] px-[8px] text-[.8em]">
+                        <option value=""  hidden>Şəhər</option>
+                    </select>
+                </div>
+
+                <div class="inpt flex justify-center items-center gap-[1vw]">
+                    <div class="double-inp flex boz ">
+                        <input type="text" class="azqiymet w-[8vw] rounded-[8px] py-[15px] px-[8px] text-[.7em]  " placeholder="Qiymət, min.">
+                        <input type="text" class="coxqiymet w-[8vw] rounded-[8px] py-[15px] px-[8px] text-[.7em]" placeholder="maks.">
+                    </div>
+                    <div class="uclu flex gap-[.5em] ">
+                        <select class="valyuta rounded-[8px] py-[15px] px-[8px] text-[.8em] w-[80px]  text-[#000] ">
+                            <option value="">AZN</option>
+                            <option value="">USD</option>
+                            <option value="">EUR</option>
+
+                        </select>
+                        <button class="bg-[#fff] rounded-[8px] p-[10px]">Kredit</button>
+                        <button class="bg-[#fff] rounded-[8px] p-[10px]"  >Barter</button>
+                    </div>
+                    <select class="ban boz w-[18vw] rounded-[8px] py-[15px] px-[8px] text-[.8em]">
+                        <option value=""  hidden>Ban növü</option>
+                    </select>
+
+                    <div class="il-group flex">
+                        <select class="azil boz w-[8vw] rounded-[8px] py-[15px] px-[8px] text-[.8em]">
+                            <option value="" hidden>İl, min.</option>
+                        </select>
+                        <select class="coxil boz w-[8vw] rounded-[8px] py-[15px] px-[8px] text-[.8em]">
+                            <option value="" hidden>maks.</option>
+                        </select>
+                    </div>  
+                </div>
+
+                <div class=" flex flex-row items-center justify-between pt-[25px]">
+                    <p>Bugün:<span class="text-[#0b0bce]" > 10000 yeni elan</span></p>
+
+                    <div class=" flex gap-[40px] items-center">
+                        <p class="boz">Sıfırla</p>
+                        <p  >Daha çox filtr <i class="fa-solid fa-chevron-down"></i></p>
+                        <button class="bg-[#CA1016] text-[#fff] border-0 rounded-[10px] p-[12px] w-[16vw] text-[1em]" >Elanları göstər</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="m-auto w-[67vw]">
+            <h3 class=" premium font-bold text-[1em] mt-[2vh] mb-[3vh] ">PREMİUM ELANLAR</h3>
+            <div id="cards"> </div>
+   </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-mobil">
+            <div class="text1 py-[20px] px-[10px]">
+                <a href="" class="block my-[10px] mx-[5px] text-[.9em] text-[#212c3a]">Qaydalar</a>
+                <a href="" class="block my-[10px] mx-[5px] text-[.9em] text-[#212c3a]">İstifadəçi razılaşması</a>
+                <a href="" class="block my-[10px] mx-[5px] text-[.9em] text-[#212c3a]">Reklam yerləşdirin</a>
+            </div>
+            <div class="text2 py-[20px] px-[10px]">
+                <p class="text-[.9em] text-[#212c3a]">Dəstək xidməti</p>
+                <p class="text-[.9em] text-[#212c3a]">(012) 505-77-55</p>
+                <span class="my-[8px] text-[.75em] text-[#8d94ad]">İş saatları — Həftə içi: 09:00-19:00 | Şənbə: 09:00-13:00</span>
+            </div>
+            <div class="media flex gap-[25px] my-[20px] mx-[5px]">
+                <div class="icon w-[42px] h-[42px] rounded-[50%] bg-[#eceff6] flex justify-center items-center">
+                    <i class="fa-solid fa-envelope text-[1.3em] p-[12px] text-[#8d94ad]"></i>
+                </div>
+                <div class="icon w-[42px] h-[42px] rounded-[50%] bg-[#eceff6] flex justify-center items-center">
+                    <i class="fa-brands fa-facebook-f text-[1.3em] p-[12px] text-[#8d94ad]"></i>
+                </div>
+                <div class="icon w-[42px] h-[42px] rounded-[50%] bg-[#eceff6] flex justify-center items-center">
+                    <i class="fa-brands fa-instagram text-[1.3em] p-[12px] text-[#8d94ad]"></i>
+                </div>
+            </div>
+            <div class="text3 py-[20px] px-[10px] block text-[12px] text-[#8d94ad] mt-[20px]">
+                <a href="" class="text-[.9em] text-[#212c3a]">Tam versiya</a>
+                <a href="" class="text-[.9em] text-[#212c3a]">Русский язык</a>
+                <span>Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş elanların məzmununa görə məsuliyyət daşımır.</span>
+            </div>
+        </div>
+        <div class="desk1 py-[20px] m-auto w-[65vw] justify-between  ">
+            <a href="#"> Reklam yerləşdirin</a>
+            <div class="media1 flex gap-[30px] text-[1em]  ">
+                <i  class="fa-brands fa-facebook-f text-[1.2em] text-[#8D94AD]"></i>
+                <i class="fa-brands fa-instagram text-[1.2em] text-[#8D94AD]"></i>
+                <a><i class="fa-solid fa-envelope text-[1.2em] text-[#8D94AD] pr-[5px]"></i> turbo@turbo.az</a>
+                <a><i class="fa-solid fa-phone text-[1.2em] text-[#8D94AD] pr-[5px]"></i> (012) 505-77-55</a>
+            </div>
+        </div> <hr />
+        <div class="desk2 py-[20px]  m-auto w-[55vw] ">
+            <span class="list "></span>
+        </div> <hr />
+        <div class="desk3 py-[20px]  m-auto w-[65vw] ">
+            <a href="#" class="text-[.85em] text-[#000] mt-[20px] mr-[30px]">Qaydalar</a>
+            <a href="#"  class="text-[.85em] text-[#000] mt-[20px] mr-[30px]" >Qanunlar</a>
+            <a href="#"  class="text-[.85em] text-[#000] mt-[20px] mr-[30px]">İstifadəçi razılaşması</a>
+            <a href="#"  class="text-[.85em] text-[#000] mt-[20px] mr-[30px]">Məxfilik siyasəti</a>
+            <a href="#"  class="text-[.85em] text-[#000] mt-[20px] mr-[30px]">Sifarişli avtomobil alan alıcı üçün tövsiyələr</a>
+        </div>
+        <div class="desk4 py-[20px]  bg-[#ca1016] ">
+            <span class="flex justify-between m-auto w-[65vw] text-[#fff]"><p>Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş <br> elanların məzmununa görə məsuliyyət daşımır.</p>
+                <p>2006-2024 Digital Classifieds MMC. VÖEN: 1405631661 <a href="" class="text-[#fff] ml-[30px]">Mobil versiyasi</a></p></span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
